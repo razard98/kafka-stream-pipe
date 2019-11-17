@@ -32,6 +32,8 @@ public class KafkaStreamPipeApplication {
         final KafkaStreams streams = new KafkaStreams(topology, props);
         streams.start();
         log.info("topology start");
+
+        //streams.close();
         //System.exit(0);
 
     }
